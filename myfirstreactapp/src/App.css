@@ -44,13 +44,11 @@ main{
   padding: 57px 27px;
   color: white;
 
-  background-image: url("../public/react-bg.jfif");
-  background-position: right center; /* Center the image */
+  background-image: url("../public/react-bg.jpg");
+  background-position: right 75%; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: 50% 100%;
 }
-
-
 
 .main--title{
 margin: 0%;
