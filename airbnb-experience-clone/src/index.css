@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: 'popins',sans-serif;
 }
 
 /* Navigation  */
@@ -16,14 +17,11 @@ nav{
 }
 
 /* Hero component */
-.hero{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
+
 .hero--image{
   width: 50%;
   margin: 1em;
+  margin-top: 2em;
   height: fit-content;
   /* border: 2px solid red; */
 }
