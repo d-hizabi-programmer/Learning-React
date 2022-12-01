@@ -9,7 +9,6 @@ export default function Card() {
                     <p class="card-text"><i  className="fa fa-star checked"></i> 5.0 (6) &#x2022; USA</p> 
                     <h5 class="card-title">Life  lessons with Katie Zaferes</h5>
                     <p class="card-text"><b>$136</b>/Person</p>
-                    
                 </div>
             </div>
         
