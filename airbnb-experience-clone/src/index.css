@@ -26,3 +26,8 @@ nav{
   /* border: 2px solid red; */
 }
 
+
+/* card component */
+.card{
+  margin: 1em auto;
+}
