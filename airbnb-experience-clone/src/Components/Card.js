@@ -1,14 +1,16 @@
 import React from "react";
-import kz from "../Images/kz.jpg";
-export default function Card() {
+// import kz from "../Images/kz.jpg";
+export default function Card(props) {
+    console.log(props);
+    let imgPath="../Images/"+props.img;
     return (
-     
-            <div class="card" style={{"width": "18rem"}}>
-                <img class="card-img-top" src={kz} alt="Card cap" />
-                <div class="card-body">
-                    <p class="card-text"><i  className="fa fa-star checked"></i> 5.0 (6) &#x2022; USA</p> 
-                    <h5 class="card-title">Life  lessons with Katie Zaferes</h5>
-                    <p class="card-text"><b>$136</b>/Person</p>
+        
+            <div className="card" style={{"width": "18rem"}}>
+                <img className="card-img-top" src={require("../Images/"+props.img)} alt="Card cap" />
+                <div className="card-body">
+                    <p className="card-text"><i  className="fa fa-star checked"></i> {props.rating} ({props.reviewCount}) &#x2022; {props.country}</p> 
+                    <h5 className="card-title">{props.title}</h5>
+                    <p className="card-text"><b>${props.price}</b>/Person</p>
                 </div>
             </div>
         

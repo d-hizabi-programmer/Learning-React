@@ -9,7 +9,13 @@ function App() {
     <>
        <Navbar />
        <Hero />
-       <Card />
+       <Card 
+       img="kz.jpg" 
+       rating="5.0"
+       reviewCount={6}
+       country="USA"
+       title="Life lessons with Kate Zaferes"
+       price={136}/>
     </>
   
   );
