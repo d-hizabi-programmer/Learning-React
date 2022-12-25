@@ -22,12 +22,25 @@ nav{
   width: 50%;
   margin: 1em;
   margin-top: 2em;
-  height: fit-content;
+  /* height:70%; */
+  /* height: fit-content; */
   /* border: 2px solid red; */
 }
 
 
-/* card component */
-.card{
-  margin: 1em auto;
+
+
+/* card image */
+.card-img-top{
+  height:70%;
 }
+/* card container */
+.cardContainer{
+  padding:1em;
+  display:flex;
+  /* align-items:center; */
+   justify-content: center;
+  /* justify-items:center; */
+  gap:3em;
+  height:auto;
+} 

@@ -19,7 +19,9 @@ function App() {
     <>
        <Navbar />
        <Hero />
+       <div className='cardContainer'>
        {newCard}
+       </div>
       
     </>
   
