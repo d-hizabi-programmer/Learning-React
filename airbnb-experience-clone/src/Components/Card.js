@@ -6,6 +6,8 @@ export default function Card(props) {
     return (
         
             <div className="card" style={{"width": "18rem"}}>
+                {props.openSpots===0 &&
+                <div className="card-badge">SOLD OUT</div>}
                 <img className="card-img-top" src={"/Images/"+props.img} alt="Card cap" />
                 <div className="card-body">
                     <p className="card-text"><i  className="fa fa-star checked"></i> {props.rating} ({props.reviewCount}) &#x2022; {props.location}</p> 

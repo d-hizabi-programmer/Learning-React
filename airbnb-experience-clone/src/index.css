@@ -44,3 +44,12 @@ nav{
   gap:3em;
   height:auto;
 } 
+
+/* card sold out badge */
+ .card-badge{
+  position:absolute;
+  top:6px;
+  left:6px;
+  background-color:white;
+  padding:5px 7px;
+ }
